@@ -5,7 +5,239 @@
     width: 90%;
     padding: 20px;
     border-radius: 8px;
-    background-color: rgba(20, 147, 20, 0.078);
+    background-color: rgba(99, 103, 99, 0.078);
     justify-items: center;
     }
+
+.head {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 0px;
+
+}
+
+.head .logo {
+    width: 115px;
+    margin-left: 10px;
+}
+
+.btn-nav {
+    text-align: center;
+}
+.head .btn-nav a {
+    font-size: 18px;
+}
+
+.hero {
+    min-height: 150px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    text-align: left;
+    background-image: url("black banner image.jpg");
+    box-shadow: 0px 20px 30px rgb(70, 70, 70);
+}
+
+.hero h2 {
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.hero h3 {
+    width: 60%;
+    font-size: 20px;
+}
+
+.hero .hero-btn a {
+    font-size: 15px;
+}
+.hero-content {
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.main1 {
+    display: flex;
+    margin: 30px 10px 10px 10px;
+    font-size: 12px;
+    text-align:left;
+    gap: 10px;
+}
+
+.main1 .information {
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.main1 img {
+    width: 50%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.main2-title {
+    font-size: 18px;
+}
+
+.main2-list {
+    font-size: 12px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.main2-list img {
+    width: 50%;
+    height: 100%;
+}
+
+.main2-list .Main2-mix {
+    margin-top: 3px;
+    align-content: center;
+    padding: 5px;
+}
+
+.main3-no {
+    font-size: 20px;
+    margin: 60px 20px 60px 20px;
+}
+
+.main4 {
+    font-size: 18px;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    gap: 3px;
+    margin: 10px;
+}
+
+.footer-list img {
+    width: 50%;
+    box-shadow: 0px 20px 30px rgb(70, 70, 70);
+}
+
+.spice {
+    font-size: 25px;
+}
+
+.footer-list .main4-masala {
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 70px 200px 0px 0px;
+}
+
+.end {
+    font-size: 18px;
+    margin: 60px 10px 60px 10px;
+}
+
+.footer-1 {
+    margin: 4px;
+    font-size: 20px;
+}
+
+.main5-footer {
+    padding: 60px;
+    margin-top: 50px;
+
+}
+
+.main5-footer a {
+    font-size: 15px;
+}
+
+.main5-footer img {
+    width: 150px;
+}
+
+.product-catalog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 15px;
+}
+
+.para1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header1 {
+    font-size: 18px;
+}
+
+.para2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header2 {
+    font-size: 18px;
+}
+
+.para3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header3 {
+    font-size: 18px;
+}
+
+.para4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header4 {
+    font-size: 18px;
+}
+
+.para5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header5 {
+    font-size: 18px;
+}
+
+.para6 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header6 {
+    font-size: 18px;
+}
+
+.para7 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-header7 {
+    font-size: 18px;
+}
+
+.contact-form {
+  display: flex;
+  margin: 50px auto;
+  width: 280px;
+}
+
+.contact-form .contact-head {
+  font-size: 22px;
+}
+
+
 }
