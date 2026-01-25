@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    let cardbtn1 = document.getElementById("card-btn1");
+/*     let cardbtn1 = document.getElementById("card-btn1");
     function addtocart1() {
         alert("Product Successfully, added to cart!");
     }
@@ -60,4 +60,45 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Product Successfully, added to cart!");
     }
     cardbtn9.addEventListener("click", addtocart9);
+ */
+
+const cart = document.querySelector(".cartview");
+const footer = document.querySelector("footer");
+
+window.addEventListener("scroll", () => {
+  const footerTop = footer.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  if (footerTop < windowHeight + 40) {
+    cart.style.bottom = (windowHeight - footerTop + 20) + "px";
+  } else {
+    cart.style.bottom = "40px";
+  }
+});
+    
+    let togglebtn = document.getElementById("togglebtn");
+    let sidebarxmark = document.querySelector(".side-barxmark")
+    let cartview = document.querySelector(".cartview");
+
+    togglebtn.addEventListener("click", () => {
+        cartview.classList.add("show");
+    });
+
+    sidebarxmark.addEventListener("click", () => {
+        cartview.classList.remove("show");
+    });
+
+
+    let cartviewhead = document.querySelector(".cartview-head");
+    let count = 0;
+    document.querySelectorAll(".cart-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            count++;
+            cartviewhead.textContent = count + " Items Added";
+           
+        });
+    });
+    
+
+
 });

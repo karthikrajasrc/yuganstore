@@ -30,7 +30,7 @@
 
 .toggle-btn {
     display: block;
-    padding: 20px;
+    padding: 20px 0px 20px 30px;
 }
 
 #togglebtn {
@@ -47,8 +47,6 @@
     margin: 20px;
     font-size: 30px;
 }
-
-
 
 .sidenav-bar {
     display: none;
@@ -204,7 +202,7 @@
 
 .main5-footer {
     padding: 60px;
-    margin-top: 50px;
+    margin-top: 100px;
 
 }
 
@@ -297,5 +295,42 @@
   font-size: 22px;
 }
 
+.cartview {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: rgb(148, 209, 111);
+    width: 60%;
+    z-index: 1000;
+    bottom: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cartview.show{
+    display: none;
+}
+
+.cartview-btn {
+    font-weight: bold;
+    text-wrap: wrap;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(225, 182, 25, 0.83);
+    color: rgb(0, 0, 0);
+}
+
+.cartview-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.cartview-head{
+    text-align: center;
+    padding-top: 5px;
+}
 
 }

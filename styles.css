@@ -255,6 +255,10 @@ body::before {
   padding: 20px;
 }
 
+.cartview {
+  display: none;
+}
+
 .product-head {
   text-align: center;
   margin: 60px;
