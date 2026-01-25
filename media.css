@@ -321,6 +321,7 @@
     border-radius: 8px;
     background-color: rgba(225, 182, 25, 0.83);
     color: rgb(0, 0, 0);
+    border: 1.5px solid black;
 }
 
 .cartview-btn a {
