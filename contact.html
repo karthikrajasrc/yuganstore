@@ -12,7 +12,7 @@
 <body>
   <header>
     <div class="head">
-      <img class="logo" src="new logo.png">
+      <img class="logo" src="./Images/new logo.png">
       <nav class="btn-nav">
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
@@ -66,7 +66,9 @@
       </h2>
     </div>
     <p class="content-inside">
+      <a href="mailto:yugansproduct@gmail.com?subject=Contact%20from%20Website">
       yugansproduct@gmail.com
+      </a>
     </p>
     <div class="contact-here">
       <h2>
@@ -76,7 +78,7 @@
 
     <div class="contact-insta">
       <div class="content-inside">
-        <img src="instagram new logo.png">
+        <img src="./Images/instagram new logo.png">
       </div>
       <a
         href="https://www.instagram.com/yugansproduct?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">YugansProduct</a>
@@ -95,22 +97,27 @@
 
 
     <div class="contact-form">
-      <form>
+      <form id="contact-form">
         <div class="contact-head">
           <h2>Contact Form</h2>
         </div>
         <div class="box-form">
-          <input type="text" name="fullname" placeholder="Full Name" required>
+          <input type="text" placeholder="Full Name" id="userinput-name">
+          <small id="name-error" style="color: red; font-weight: bold;"></small>
         </div>
         <div class="box-form">
-          <input type="tel" name="phone" placeholder="Phone Number" required>
+          <input type="tel" placeholder="Phone Number" id="userinput-phone">
+          <small id="phone-error" style="color: red; font-weight: bold;"></small>
         </div>
         <div class="box-form">
-          <textarea name="query" placeholder="Enter your Queries" required></textarea>
+          <textarea name="query" placeholder="Enter your Queries"></textarea>
         </div>
         <div class="box-btn">
           <button type="submit">Submit</button>
         </div>
+        <p id="success-message" style="display:none;">
+          ✅ Form submitted successfully
+        </p>
       </form>
     </div>
 
@@ -120,13 +127,13 @@
 
   <footer class="footer-1">
     <div class="main5-footer">
-      <img src="new logo.png">
+      <img src="./Images/new logo.png">
       <p><a href="aboutus.html">About</a> | <a href="products.html">Products</a> | <a href="contact.html">Contact</a>
       </p><br>
       <p>© 2025 YugansProduct. All Rights Reserved.</p>
     </div>
   </footer>
-
+<script src="contact.js"></script>
 <script src="index.js"></script>
 </body>
 

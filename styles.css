@@ -22,7 +22,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("Page\ background\ image\'.webp");
+  background-image: url("./Images/Page\ background\ image\'.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,11 +61,6 @@ body::before {
 
 .sidenav-bar {
   display: none;
-  width: 50%;
-  background-color: rgba(0, 128, 0, 0.53);
-  height: 100%;
-  position: fixed;
-  top: 0;
 }
 
 .hero {
@@ -74,7 +69,7 @@ body::before {
   padding-left: 50px;
   padding-bottom: 25px;
   text-align: left;
-  background-image: url("black banner image.jpg");
+  background-image: url("./Images/black\ banner\ image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -348,6 +343,7 @@ body::before {
   font-size: 25px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 
 #about-header2 {
@@ -387,6 +383,7 @@ body::before {
   display: flex;
   flex-direction: column;
   display: none;
+  font-weight: 500;
 }
 
 #about-header3 {
@@ -425,6 +422,7 @@ body::before {
   font-size: 25px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 
 #about-header4 {
@@ -463,6 +461,7 @@ body::before {
   font-size: 25px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 
 #about-header5 {
@@ -501,6 +500,7 @@ body::before {
   font-size: 25px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 
 #about-header6 {
@@ -539,6 +539,7 @@ body::before {
   font-size: 25px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 
 #about-header7 {
@@ -580,6 +581,11 @@ body::before {
 .content-inside {
   font-size: 22px;
   margin: 15px 0px 15px 15px;
+}
+
+.content-inside a {
+text-decoration: none;
+color: black;
 }
 
 .contact-insta {
