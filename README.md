@@ -21,22 +21,24 @@ This project was built as part of MERN Full Stack Development training and focus
 ## Tech Stack
 
 ### Frontend
+
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - React.js
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### Database
+
 - MongoDB
 
 ### Tools & Technologies
+
 - Git & GitHub
 - RESTful APIs
 - VS Code
 - Postman
-
-
